@@ -3,34 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <script type="text/javascript" src="./lib/jquery_lite.js">
+    <script type="text/javascript" src="./lib/ask_dom.js">
     </script>
   </head>
   <body>
-    <script>
-    $l(() => {
-      alert("ready!")
-    });
-    $l("ul").append("Hey");
-
-    $l.ajax({
-      type: 'GET',
-      url: "http://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=bcb83c4b54aee8418983c2aff3073b3b",
-      success(data) {
-        console.log("We have your weather!")
-        console.log(data);
-      },
-      error() {
-        console.error("An error occurred.");
-      },
-    });
-    </script>
-    <ul class="test">
-      <li>lists</li>
-      <li>lists</li>
-      <li>lists</li>
-      <p class='paragraphies'>this is papagraph</p>
-    </ul>
-    <h2>hello! header</h2>
+      <figure class="beer"></figure>
   </body>
 </html>
