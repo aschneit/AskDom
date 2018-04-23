@@ -42,6 +42,90 @@ table {
 	border-spacing: 0;
 }
 
+body {
+	background-color: #c74949;
+}
+
 .beer {
 
+}
+
+.title-image {
+	display: flex;
+	margin-top: 50px;
+	align-items: center;
+
+}
+
+.title {
+	font-family: 'Black Han Sans', sans-serif;
+	font-size: 100px;
+	color: #21202f;
+	margin-left: 200px;
+	width: 470px;
+	height: 100px;
+	line-height: 100px;
+}
+
+.form {
+	margin-top: 50px;
+	margin-left: 100px;
+	display: flex;
+	flex-direction: column;
+	height: 330px;
+
+	flex-wrap: wrap;
+
+}
+
+.form div {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 15px;
+	width: 350px;
+}
+
+.search-button {
+	width: 50px;
+}
+
+form input {
+	width: 100px;
+	padding: 5px;
+	border: 1px solid #9c9c9c;
+	border-color: #9c9c9c #9c9c9c #ccc #ccc;
+	font-family: Helvetica;
+	font-size: 13px;
+
+}
+
+label {
+	padding-bottom: 5px;
+	font-family: 'Black Han Sans', sans-serif;
+	color: #21202f;
+}
+
+
+.search-button {
+	margin-top: 20px;
+	border-radius: 5px;
+	width: 112px;
+	font-family: 'Black Han Sans', sans-serif;
+	line-height: 16px;
+	height: 26px;
+	font-size: 16px;
+	color: #21202f;
+}
+
+.search-button:active {
+	background-color: #f7ba42;
+}
+
+.beer-list {
+	margin-top: 30px;
+	margin-left: 100px;
+	font-family: 'Black Han Sans', sans-serif;
+	color: #21202f;
+	font-size: 16px;
+	line-height: 25px;
 }
