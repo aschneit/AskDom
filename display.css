@@ -123,6 +123,8 @@ label {
 
 .display {
 	display: flex;
+	justify-content: space-between;
+	min-height: 700px;
 }
 
 .beer-list {
@@ -132,6 +134,7 @@ label {
 	color: #21202f;
 	font-size: 16px;
 	line-height: 25px;
+	min-width: 400px;
 }
 
 .beer-list li {
@@ -144,7 +147,6 @@ label {
 }
 
 .info {
-	margin-left: 50px;
 	margin-top: 30px;
 	font-family: 'Black Han Sans', sans-serif;
 	color: #21202f;
@@ -152,10 +154,26 @@ label {
 	line-height: 25px;
 	display: inline-block;
 	list-style: none;
+	width: 400px;
+	height: 100%;
+	margin-right: 100px;
+	padding: 10px;
+	font-size: 13px;
+
+}
+
+.selected {
+	border: 6px solid #f7ba42;
 }
 
 .info img {
 	height: 20%;
 	width: 20%;
+	float: left;
+	padding-right: 15px;
+	padding-bottom: 15px;
+}
 
+.info li {
+	margin-bottom: 20px;
 }
