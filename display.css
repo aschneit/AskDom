@@ -180,3 +180,18 @@ label {
 	padding-bottom: 16px;
 
 }
+
+.return {
+	margin-left: 100px;
+	font-family: 'Black Han Sans', sans-serif;
+	color: #21202f;
+	font-size: 16px;
+	line-height: 25px;
+	cursor: pointer;
+	width: fit-content;
+	list-style: none;
+}
+
+.return:hover {
+	color: #f7ba42;
+}
