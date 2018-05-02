@@ -156,6 +156,7 @@ label {
 	display: inline-block;
 	list-style: none;
 	width: 400px;
+	min-width: 400px;
 	height: 100%;
 	margin-right: 100px;
 	padding: 10px;
