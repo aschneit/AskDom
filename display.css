@@ -140,6 +140,7 @@ label {
 .beer-list li {
 	cursor: pointer;
 	width: fit-content;
+	display: block;
 }
 
 .beer-list li:hover {
@@ -192,6 +193,11 @@ label {
 	list-style: none;
 }
 
-.return:hover {
+.return a {
+	text-decoration: none;
+	color: #21202f;
+}
+
+.return a:hover {
 	color: #f7ba42;
 }
