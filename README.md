@@ -124,3 +124,30 @@ $l('.form').on('submit', (e) =>{
   this.fetchData(dataVals, beerList);
 });
 ```
+
+### $l.ajax
+
+Takes an options hash and merges it with default parameters to create a new XMLHttpRequest object. Appends data parameters to a query string for 'GET' requests and returns 'success' and 'error' callbacks.
+
+```JavaScript
+$l.ajax({
+  type: 'GET',
+  data: dataVals,
+  url: "https://api.punkapi.com/v2/beers",
+  success(data) {
+    beerList = JSON.parse(data);
+    $l('.beer-list').find('li').remove();
+    beerList.forEach(beer =>{
+      $l('.beer-list').append(`<li id=${beer.id}>${beer.name}</li>`);
+    });
+    $l('.form').find("[type='text']").val('');
+    $l('.info').empty();
+    $l('.info').removeClass('selected');
+    document.getElementById('beer-list').scrollIntoView({behavior: 'smooth'});
+    thisClass.displayBeerInfo(beerList);
+  },
+  error() {
+    console.error("An error occurred.");
+  },
+});
+```
