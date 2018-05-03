@@ -151,3 +151,7 @@ $l.ajax({
   },
 });
 ```
+
+### Demo
+
+To access a demo of the AskDOM library, try [HopsToIt](http://aschneit.com/HopsToIt/), a site where the user can fill out a form selecting their beer preferences, which queries the [Punk API](https://punkapi.com/) and downloads a list of beers matching these criteria. 
