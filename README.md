@@ -12,7 +12,7 @@ AskDOM is a jQuery-inspired JavaScript library enabling easy manipulation of the
 
 * Simplify the process of making HTTP requests to web APIs
 
-[Live Demo](http://aschneit.com/AskDom/)
+[Live Demo](http://aschneit.com/HopsToIt/)
 
 
 ## API
